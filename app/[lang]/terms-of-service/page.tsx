@@ -1,11 +1,13 @@
 import { normalizeLang } from "@/lib/lang";
 
-export default function TermsOfService({
+
+export default async function TermsOfService({
   params,
 }: {
-  params: { lang?: string };
+  params: Promise<{ lang: string }>;
 }) {
-  const lang = normalizeLang(params.lang);
+  const { lang: rawLang } = await params;
+  const lang = normalizeLang(rawLang);
 
   return (
     <section className="max-w-4xl mx-auto px-6 py-24 text-gray-700">

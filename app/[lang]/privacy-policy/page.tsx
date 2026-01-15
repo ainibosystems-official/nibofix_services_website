@@ -1,11 +1,13 @@
 import { normalizeLang } from "@/lib/lang";
 
-export default function PrivacyPolicy({
+export default async function PrivacyPolicy({
   params,
 }: {
-  params: { lang?: string };
+  params: Promise<{ lang: string }>;
 }) {
-  const lang = normalizeLang(params.lang);
+  const { lang: rawLang } = await params;
+  const lang = normalizeLang(rawLang);
+
   const today = new Date().toLocaleDateString();
 
   return (

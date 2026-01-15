@@ -3,6 +3,8 @@
 import { translations } from "@/lib/translations";
 import { normalizeLang } from "@/lib/lang";
 import { useEffect, useRef, useState } from "react";
+import { use } from "react";
+
 
 /* =========================
    TYPES
@@ -101,9 +103,11 @@ function FaqCard({
 export default function FAQPage({
   params,
 }: {
-  params: { lang?: string };
+  params: Promise<{ lang: string }>;
+
 }) {
-  const lang = normalizeLang(params.lang);
+  const { lang: rawLang } = use(params);
+  const lang = normalizeLang(rawLang);
   const t = (translations as any)[lang].faq as FaqTranslation;
 
   /* =========================
