@@ -77,11 +77,11 @@ export default function ServiceRow({
         {/* RIGHT */}
         {!isModifier ? (
           <input
+            suppressHydrationWarning
             type="number"
             inputMode="numeric"
             min={0}
-            value={quantity || ""}
-            placeholder="0"
+            value={quantity ?? 0}
             onChange={(e) => onChange(e.target.value)}
             className="
               w-12
