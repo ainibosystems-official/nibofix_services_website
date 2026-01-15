@@ -1,28 +1,35 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
+import { Suspense } from "react";
 import ClientLayout from "./ClientLayout";
 import { normalizeLang } from "@/lib/lang";
 
 type Props = {
-  params: { lang?: string };
-  children: React.ReactNode;
+  params: Promise<{
+    lang: string;
+  }>;
+  children: ReactNode;
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const lang = normalizeLang(params.lang);
+export async function generateMetadata(
+  { params }: { params: Promise<{ lang: string }> }
+): Promise<Metadata> {
+  const { lang: rawLang } = await params;
+  const lang = normalizeLang(rawLang);
 
   const title =
     lang === "bg"
       ? "Ремонтни услуги в Бургас – NiBoFix"
       : lang === "ua"
-      ? "Ремонтні послуги в Бургасі – NiBoFix"
-      : "Home Repair Services in Burgas – NiBoFix";
+        ? "Ремонтні послуги в Бургасі – NiBoFix"
+        : "Home Repair Services in Burgas – NiBoFix";
 
   const description =
     lang === "bg"
       ? "Професионални ремонтни и довършителни услуги за дома."
       : lang === "ua"
-      ? "Професійні ремонтні та оздоблювальні послуги для дому."
-      : "Professional home repair, renovation and finishing services.";
+        ? "Професійні ремонтні та оздоблювальні послуги для дому."
+        : "Professional home repair, renovation and finishing services.";
 
   return {
     title,
@@ -53,12 +60,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function LangLayout({ children, params }: Props) {
-  const lang = normalizeLang(params.lang);
+export default async function LangLayout({ children, params }: Props) {
+  const { lang: rawLang } = await params;
+  const lang = normalizeLang(rawLang);
 
   return (
-    <ClientLayout lang={lang}>
-      {children}
-    </ClientLayout>
+    <Suspense fallback={null}>
+      <ClientLayout lang={lang}>
+        {children}
+      </ClientLayout>
+    </Suspense>
   );
 }

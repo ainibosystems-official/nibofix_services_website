@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Hero from "@/components/Hero";
 import ServicesStrip from "@/components/ServicesStrip";
 import ServicesGrid from "@/components/ServicesGrid";
@@ -14,21 +15,22 @@ export function generateStaticParams() {
   ];
 }
 
-export default function Home({
+export default async function Home({
   params,
 }: {
-  params: { lang?: string };
+  params: Promise<{ lang: string }>;
 }) {
-  const lang = normalizeLang(params.lang);
+  const { lang: rawLang } = await params;
+  const lang = normalizeLang(rawLang);
 
   return (
-    <>
+    <Suspense fallback={null}>
       <Hero lang={lang} />
       <ServicesStrip lang={lang} />
       <ServicesGrid lang={lang} />
       <Prices lang={lang} />
       <Contacts lang={lang} />
       <About lang={lang} />
-    </>
+    </Suspense>
   );
 }
