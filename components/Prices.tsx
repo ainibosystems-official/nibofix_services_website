@@ -105,8 +105,12 @@ export default function Prices({ lang }: { lang: Lang }) {
   /* =========================
      SUBMIT HANDLER
   ========================= */
+  const [sending, setSending] = useState(false);
+
   const handleSubmit = async () => {
-    if (!canSubmit) return;
+    if (!canSubmit || sending) return;
+
+    setSending(true);
 
     const selectedServices = services
       .filter((s) => quantities[s.id] > 0)
@@ -125,7 +129,7 @@ export default function Prices({ lang }: { lang: Lang }) {
       }));
 
     try {
-      await fetch("/api/send-offer", {
+      const res = await fetch("/api/send-offer", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -139,37 +143,19 @@ export default function Prices({ lang }: { lang: Lang }) {
         }),
       });
 
-      try {
-        const res = await fetch("/api/send-offer", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            services: selectedServices,
-            total: total.toFixed(2),
-            name: form.name,
-            email: form.email,
-            phone: form.phone,
-            message: form.message,
-            lang,
-          }),
-        });
+      if (!res.ok) throw new Error("Send failed");
 
-        if (!res.ok) throw new Error("Send failed");
-
-        setPopup({
-          type: "success",
-          message: t.form?.success,
-        });
-
-      } catch {
-        setPopup({
-          type: "error",
-          message: t.form?.error,
-        });
-      }
-
+      setPopup({
+        type: "success",
+        message: t.form?.success,
+      });
     } catch {
-      alert(t.form?.error || "Something went wrong. Please try again.");
+      setPopup({
+        type: "error",
+        message: t.form?.error,
+      });
+    } finally {
+      setSending(false);
     }
   };
 
@@ -253,7 +239,7 @@ export default function Prices({ lang }: { lang: Lang }) {
             <p className="text-sm opacity-90 mt-2 text-center">
               {t.note}
             </p>
-            
+
             {/* ✅ DISCOUNTS NOTICE */}
             <p className="mt-2 text-sm opacity-90 text-center">
               {t.discountsNotice}{" "}
@@ -326,7 +312,7 @@ export default function Prices({ lang }: { lang: Lang }) {
               <button
                 type="button"
                 onClick={handleSubmit}
-                disabled={!canSubmit}
+                disabled={!canSubmit || sending}
                 className={`
                   rounded-xl
                   px-8
@@ -352,7 +338,7 @@ export default function Prices({ lang }: { lang: Lang }) {
                   }
                 `}
               >
-                {t.form?.send}
+                {sending ? "Sending…" : t.form?.send}
               </button>
             </div>
           </div>
