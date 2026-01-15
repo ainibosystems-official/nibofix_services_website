@@ -34,10 +34,22 @@ export async function generateMetadata(
   return {
     title,
     description,
+
+    /* ✅ SEO: canonical + hreflang */
+    alternates: {
+      canonical: `https://www.nibofix.com/${lang}`,
+      languages: {
+        bg: "https://www.nibofix.com/bg",     // 🇧🇬 PRIMARY
+        en: "https://www.nibofix.com/en",
+        uk: "https://www.nibofix.com/ua",
+        "x-default": "https://www.nibofix.com/bg", // ⭐ DEFAULT = BG
+      },
+    },
+
     openGraph: {
       title,
       description,
-      url: `https://nibofix.com/${lang}`,
+      url: `https://www.nibofix.com/${lang}`,
       siteName: "NiBoFix Services",
       images: [
         {
@@ -51,6 +63,7 @@ export async function generateMetadata(
         lang === "bg" ? "bg_BG" : lang === "ua" ? "uk_UA" : "en_US",
       type: "website",
     },
+
     twitter: {
       card: "summary_large_image",
       title,
