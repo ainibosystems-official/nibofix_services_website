@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 
+const nodemailer = require("nodemailer");
+
 export async function POST(req: Request) {
   try {
     const data = await req.json();
@@ -60,8 +62,22 @@ ${message || "-"}
     ========================= */
     // Later you will replace this with:
     // Resend / Nodemailer / SMTP
-    console.log("=== NEW OFFER REQUEST ===");
-    console.log(emailText);
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_HOST,
+      port: Number(process.env.SMTP_PORT),
+      secure: false,
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+    });
+
+    await transporter.sendMail({
+      from: process.env.EMAIL_FROM,
+      to: process.env.EMAIL_TO,
+      subject: "New Offer Request – NiBoFix",
+      text: emailText,
+    });
 
     return NextResponse.json({
       success: true,
