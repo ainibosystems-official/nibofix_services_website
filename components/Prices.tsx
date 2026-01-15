@@ -100,8 +100,6 @@ export default function Prices({ lang }: { lang: Lang }) {
     form.consent &&
     (form.email.trim() !== "" || form.phone.trim() !== "");
 
-  if (!mounted) return null;
-
   /* =========================
      SUBMIT HANDLER
   ========================= */
