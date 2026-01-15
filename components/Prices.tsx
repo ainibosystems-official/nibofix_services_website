@@ -338,7 +338,7 @@ export default function Prices({ lang }: { lang: Lang }) {
                   }
                 `}
               >
-                {sending ? "Sending…" : t.form?.send}
+                {t.form?.send}
               </button>
             </div>
           </div>
