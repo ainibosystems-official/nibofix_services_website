@@ -252,15 +252,15 @@ export default function Prices({ lang }: { lang: Lang }) {
             {/* FORM */}
             <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
+                suppressHydrationWarning
                 placeholder={t.form?.name}
                 value={form.name}
-                onChange={(e) =>
-                  updateForm("name", e.target.value)
-                }
+                onChange={(e) => updateForm("name", e.target.value)}
                 className="rounded-md px-3 py-2 text-black"
               />
 
               <input
+                suppressHydrationWarning
                 placeholder={t.form?.email}
                 value={form.email}
                 onChange={(e) =>
@@ -270,6 +270,7 @@ export default function Prices({ lang }: { lang: Lang }) {
               />
 
               <input
+                suppressHydrationWarning
                 placeholder={t.form?.phone}
                 value={form.phone}
                 onChange={(e) =>
@@ -279,6 +280,7 @@ export default function Prices({ lang }: { lang: Lang }) {
               />
 
               <textarea
+                suppressHydrationWarning
                 placeholder={t.form?.message}
                 value={form.message}
                 onChange={(e) =>
