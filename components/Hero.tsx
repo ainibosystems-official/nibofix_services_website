@@ -78,7 +78,11 @@ export default function Hero({ lang }: { lang: Lang }) {
           >
             {/* LEFT COLUMN */}
             <div>
-              <h1 className="text-4xl lg:text-6xl font-extrabold leading-tight">
+              <h1 className="text-4xl
+  lg:text-6xl
+  font-extrabold
+  leading-[1.5]
+  lg:leading-[1.5]">
                 {t.hero.title}
               </h1>
 

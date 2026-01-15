@@ -62,8 +62,8 @@ export const translations = {
     },
 
     hero: {
-      title: "Refresh & Renew Your Home",
-      subtitle: "Professional Repair & Finishing Services",
+      title: "Home Care in Burgas",
+      subtitle: "Professional Repair, Finishing & Cleaning Services in Burgas & the Region",
       cta: "Get a Free Estimate",
       learn: "Learn More",
       note: "Response within 24 hours • No obligation",
@@ -387,8 +387,8 @@ export const translations = {
     },
 
     hero: {
-      title: "Освежете и Обновете Вашия Дом",
-      subtitle: "Професионални ремонтни и довършителни услуги",
+      title: "Грижа за дома в Бургас",
+      subtitle: "Професионални ремонти, довършителни и почистващи услуги в Бургас и региона",
       cta: "Безплатна Оферта",
       learn: "Научи повече",
       note: "Отговор до 24 часа • Без ангажимент",
@@ -709,8 +709,8 @@ export const translations = {
     },
 
     hero: {
-      title: "Оновіть та освіжіть свій дім",
-      subtitle: "Професійні ремонтні та оздоблювальні послуги",
+      title: "Догляд за житлом у Бургасі",
+      subtitle: "Професійні ремонтні, оздоблювальні та клінінгові послуги у Бургасі та регіоні",
       cta: "Безкоштовна оцінка",
       learn: "Дізнатися більше",
       note: "Відповідь протягом 24 годин • Без зобов’язань",
