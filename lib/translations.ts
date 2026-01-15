@@ -64,7 +64,7 @@ export const translations = {
     hero: {
       title: "Home Care in Burgas",
       subtitle: "Professional Repair, Finishing & Cleaning Services in Burgas & the Region",
-      cta: "Get a Free Estimate",
+      cta: "Price calculator",
       learn: "Learn More",
       note: "Response within 24 hours • No obligation",
     },
@@ -389,7 +389,7 @@ export const translations = {
     hero: {
       title: "Грижа за дома в Бургас",
       subtitle: "Професионални ремонти, довършителни и почистващи услуги в Бургас и региона",
-      cta: "Безплатна Оферта",
+      cta: "Калкулатор за цена",
       learn: "Научи повече",
       note: "Отговор до 24 часа • Без ангажимент",
     },
@@ -711,7 +711,7 @@ export const translations = {
     hero: {
       title: "Догляд за житлом у Бургасі",
       subtitle: "Професійні ремонтні, оздоблювальні та клінінгові послуги у Бургасі та регіоні",
-      cta: "Безкоштовна оцінка",
+      cta: "Калькулятор цін",
       learn: "Дізнатися більше",
       note: "Відповідь протягом 24 годин • Без зобов’язань",
     },

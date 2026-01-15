@@ -99,7 +99,7 @@ export default function Hero({ lang }: { lang: Lang }) {
               "
             >
               <a
-                href="#contact"
+                href="#prices"
                 className="
                   inline-block
                   bg-[#3B82F6]
