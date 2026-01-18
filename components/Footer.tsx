@@ -105,14 +105,15 @@ export default function Footer({ lang }: { lang: Lang }) {
               </p>
 
               <p className="flex items-center justify-center md:justify-start gap-2 group">
-                <span className="text-white/70 group-hover:text-white transition">
+                <span className="text-[#1877F2] group-hover:text-[#4c8df6] transition">
                   <FaFacebookF />
                 </span>
+
                 <a
                   href="https://www.facebook.com/NiboFixServicesBurgas"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group-hover:text-white transition"
+                  className="text-[#1877F2] group-hover:text-[#4c8df6] transition"
                 >
                   Facebook
                 </a>
