@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { translations } from "@/lib/translations";
 import { Lang } from "@/lib/lang";
+import { FaFacebookF } from "react-icons/fa";
+
 
 export default function Footer({ lang }: { lang: Lang }) {
   const t = translations[lang];
@@ -99,6 +101,20 @@ export default function Footer({ lang }: { lang: Lang }) {
                   className="hover:text-white transition"
                 >
                   nibofix@gmail.com
+                </a>
+              </p>
+
+              <p className="flex items-center justify-center md:justify-start gap-2 group">
+                <span className="text-white/70 group-hover:text-white transition">
+                  <FaFacebookF />
+                </span>
+                <a
+                  href="https://www.facebook.com/NiboFixServicesBurgas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group-hover:text-white transition"
+                >
+                  Facebook
                 </a>
               </p>
 
