@@ -178,21 +178,24 @@ export default async function ServicePage({ params }: Props) {
               <Link
                 href={`/${lang}#prices`}
                 className="
-                  mt-4
-                  inline-block
-                  bg-[#3B82F6]
-                  hover:bg-[#2563EB]
-                  text-white
-                  font-semibold
-                  px-6
-                  py-3
-                  rounded-xl
-                  transition
-                  w-fit
-                "
+    mt-4
+    inline-block
+    bg-[#3B82F6]
+    hover:bg-[#2563EB]
+    text-white
+    font-semibold
+    px-6
+    py-3
+    rounded-xl
+    transition
+    w-fit
+    mx-auto
+    md:mx-0
+  "
               >
                 {raw.hero.cta}
               </Link>
+
             </div>
           </div>
         </div>
