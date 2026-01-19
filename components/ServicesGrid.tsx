@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { translations } from "@/lib/translations";
 import { Lang } from "@/lib/lang";
 
@@ -18,27 +19,21 @@ export default function ServicesGrid({ lang }: { lang: Lang }) {
       id="services"
       className="scroll-mt-32 pt-24 pb-16 bg-white"
     >
-
       {/* =========================
-    WHITE HEADER STRIP
-========================= */}
+          WHITE HEADER STRIP
+      ========================= */}
       <div className="max-w-7xl mx-auto px-6 mb-12">
         <div className="text-center max-w-3xl mx-auto">
-          {/* TITLE ROW WITH LINES */}
           <div className="flex items-center gap-6 justify-center">
-            {/* LEFT LINE */}
             <span className="hidden md:block flex-1 h-px bg-gray-300 translate-y-[3px]" />
 
-            {/* TITLE */}
             <h2 className="text-3xl md:text-4xl font-bold text-[#2e7d6f] whitespace-nowrap">
               {t.nav.services}
             </h2>
 
-            {/* RIGHT LINE */}
             <span className="hidden md:block flex-1 h-px bg-gray-300 translate-y-[3px]" />
           </div>
 
-          {/* SUBTITLE */}
           <p className="mt-4 text-lg font-semibold text-gray-600">
             {t.hero.subtitle}
           </p>
@@ -49,8 +44,6 @@ export default function ServicesGrid({ lang }: { lang: Lang }) {
           GRAY CONTENT STRIP
       ========================= */}
       <div className="relative">
-
-
         {/* FULL-WIDTH GRAY BACKGROUND */}
         <div
           className="
@@ -79,23 +72,62 @@ export default function ServicesGrid({ lang }: { lang: Lang }) {
               const service = t.servicesGrid[key];
 
               return (
-                <div
+                <Link
                   key={key}
+                  href={`/${lang}/services/${key}`}
                   className="
+                    group
+                    relative
                     bg-white
                     rounded-2xl
                     overflow-hidden
                     border border-gray-100
                     shadow-[0_20px_40px_rgba(0,0,0,0.12)]
-                    hover:shadow-[0_30px_60px_rgba(0,0,0,0.18)]
-                    transition-shadow
+                    transition-all
+                    duration-300
+                    hover:-translate-y-2
+                    hover:scale-[1.02]
+                    hover:shadow-[0_35px_70px_rgba(0,0,0,0.22)]
+                    cursor-pointer
                   "
                 >
                   {/* IMAGE */}
                   <div
-                    className="h-60 md:h-64 bg-cover bg-center"
+                    className="relative h-60 md:h-64 bg-cover bg-center"
                     style={{ backgroundImage: `url(${image})` }}
-                  />
+                  >
+                    {/* Hover overlay */}
+                    <div
+                      className="
+                        absolute inset-0
+                        bg-black/0
+                        group-hover:bg-black/10
+                        transition
+                      "
+                    />
+
+                    {/* Arrow hint */}
+                    <div
+                      className="
+                        absolute bottom-4 right-4
+                        bg-white/90
+                        text-[#2e7d6f]
+                        rounded-full
+                        w-10 h-10
+                        flex items-center justify-center
+                        opacity-0
+                        translate-y-2
+                        group-hover:opacity-100
+                        group-hover:translate-y-0
+                        transition
+                        shadow
+                        text-lg
+                        font-bold
+                      "
+                    >
+                      →
+                    </div>
+                  </div>
 
                   {/* CONTENT */}
                   <div className="p-7 md:p-8">
@@ -106,8 +138,22 @@ export default function ServicesGrid({ lang }: { lang: Lang }) {
                     <p className="mt-3 text-sm text-gray-600 leading-relaxed">
                       {service.description}
                     </p>
+
+                    <p
+                      className="
+                        mt-4
+                        text-sm
+                        font-semibold
+                        text-[#2e7d6f]
+                        opacity-70
+                        group-hover:opacity-100
+                        transition
+                      "
+                    >
+                      Learn more →
+                    </p>
                   </div>
-                </div>
+                </Link>
               );
             })}
           </div>
