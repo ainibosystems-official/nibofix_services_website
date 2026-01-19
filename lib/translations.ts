@@ -124,10 +124,10 @@ export const translations = {
         description:
           "We provide professional interior painting of walls and ceilings for apartments, houses, and rental properties. The service includes two coats of paint, light plastering where needed, clean edge cutting, and protection of floors and furniture. Our goal is a smooth, durable finish that refreshes the space and increases property value. Painting gives full access to the rooms, making it ideal to combine with upholstery or window cleaning at reduced prices.",
         prices: [
-          "Single-color painting (labour only) – 3.60 € / m²",
-          "Single-color painting (with materials) – 5.60 € / m²",
-          "Two or more colors (labour only) – 4.60 € / m²",
-          "Two or more colors (with materials) – 6.80 € / m²",
+          "Single-color painting (labour only) – €3.60 / 7.04 BGN / m²",
+          "Single-color painting (with materials) – €5.60 / 10.95 BGN / m²",
+          "Two or more colors (labour only) – €4.60 / 8.99 BGN / m²",
+          "Two or more colors (with materials) – €6.80 / 13.29 BGN / m²",
           "Optional preparation: priming, wallpaper removal, old paint removal, additional plastering",
         ],
         discounts: [
@@ -143,13 +143,13 @@ export const translations = {
         description:
           "We install laminate, vinyl (PVC), and carpet (moket) flooring with precise alignment and proper technical execution. The service can include old flooring removal, base leveling, underlay installation, skirting boards, and transition strips. Suitable for renovations, new apartments, and rental upgrades. Flooring installation is often combined with deep cleaning or upholstery cleaning once the work is completed.",
         prices: [
-          "Laminate flooring installation – 5.50 € / m²",
-          "Carpet / moket installation (glue included) – 5.50 € / m²",
-          "Vinyl / PVC flooring installation (glue included) – 6.00 € / m²",
-          "Old flooring removal – 2.00 € / m²",
-          "Floor leveling – 4.50 € / m²",
-          "Skirting boards – 2.50 € / linear meter",
-          "Transition strips – 5.00 € / piece",
+          "Laminate flooring installation – €5.50 / 10.75 BGN / m²",
+          "Carpet / moket installation (glue included) – €5.50 / 10.75 BGN / m²",
+          "Vinyl / PVC flooring installation (glue included) – €6.00 / 11.73 BGN / m²",
+          "Old flooring removal – €2.00 / 3.91 BGN / m²",
+          "Floor leveling – €4.50 / 8.80 BGN / m²",
+          "Skirting boards – €2.50 / 4.88 BGN / lm",
+          "Transition strips – €5.00 / 9.77 BGN / piece",
         ],
         discounts: [
           "Deep apartment cleaning –15% when area is 10 m² or more",
@@ -164,14 +164,14 @@ export const translations = {
         description:
           "We assemble standard furniture according to manufacturer instructions, ensuring stability and correct alignment. The service covers beds, wardrobes, desks, tables, chairs, and kitchen units. Optional services include wall mounting, dismantling old furniture, and carrying items out within the same property. When assembling multiple items or a kitchen, combining with professional cleaning is often the most efficient option.",
         prices: [
-          "Bed – 25 € / piece",
-          "Wardrobe (small to large) – 40–80 € / piece",
-          "Table or desk – 20 € / piece",
-          "Chair – 7 € / piece",
-          "Kitchen (up to 6 cabinets) – 140 €",
-          "Wall mounting – 10 € / piece",
-          "Old furniture removal – 15 € / piece",
-          "Carry out (same property) – 10 € / piece",
+          "Bed – €25 / 48.89 BGN",
+          "Wardrobe (small to large) – €40–80 / 78.23–156.46 BGN",
+          "Table or desk – €20 / 39.11 BGN",
+          "Chair – €7 / 13.69 BGN",
+          "Kitchen (up to 6 cabinets) – €140 / 273.81 BGN",
+          "Wall mounting – €10 / 19.55 BGN",
+          "Old furniture removal – €15 / 29.33 BGN",
+          "Carry out (same property) – €10 / 19.55 BGN",
         ],
         discounts: [
           "Deep apartment cleaning –10% when assembling 3 or more items or a kitchen",
@@ -186,14 +186,14 @@ export const translations = {
         description:
           "We perform on-site deep extraction cleaning of sofas, armchairs, mattresses, carpets, and mokets. The process removes dirt, stains, odors, and allergens. Drying time is typically 4–8 hours. Because the space is already accessible and wet during this service, window and balcony cleaning can be added with a higher discount.",
         prices: [
-          "2-seat sofa – 30 €",
-          "3-seat sofa – 40 €",
-          "Corner sofa – 50–60 €",
-          "Armchair – 15 €",
-          "Mattress – 20–45 €",
-          "Carpet / moket cleaning – 3.50 € / m²",
+          "2-seat sofa – €30 / 58.67 BGN",
+          "3-seat sofa – €40 / 78.23 BGN",
+          "Corner sofa – €50–60 / 97.79–117.34 BGN",
+          "Armchair – €15 / 29.33 BGN",
+          "Mattress – €20–45 / 39.11–88.01 BGN",
+          "Carpet / moket cleaning – €3.50 / 6.84 BGN / m²",
           "Heavy dirt or pet hair – +20%",
-          "Disinfection – +5 € / object",
+          "Disinfection – €5 / 9.77 BGN / object",
         ],
         discounts: [
           "Window & balcony cleaning –20% when upholstery cleaning is selected",
@@ -207,12 +207,12 @@ export const translations = {
         description:
           "We clean windows and balconies from the inside and outside whenever access is possible from the property. The service includes glass, frames, rails, balcony floors, and railings. Ideal before move-in, after renovation, or when combined with upholstery or deep cleaning services.",
         prices: [
-          "Single-sash window – 6 €",
-          "Double-sash window – 10 €",
-          "French window / showcase – 12 €",
-          "Balcony door – 10 €",
-          "Balcony – 15 €",
-          "Large balcony / loggia – 20 €",
+          "Single-sash window – €6 / 11.73 BGN",
+          "Double-sash window – €10 / 19.55 BGN",
+          "French window / showcase – €12 / 23.46 BGN",
+          "Balcony door – €10 / 19.55 BGN",
+          "Balcony – €15 / 29.33 BGN",
+          "Large balcony / loggia – €20 / 39.11 BGN",
           "Heavy dirt – +20%",
         ],
       },
@@ -224,9 +224,7 @@ export const translations = {
         description:
           "Deep apartment cleaning is intended for properties that require a full reset. The service includes removal of construction dust and accumulated dirt from floors, kitchens, bathrooms, doors, switches, sockets, skirting boards, and accessible light fixtures. Pricing depends on square meters and level of contamination.",
         prices: [
-          "Deep apartment cleaning – 4.50 € / m²",
-          "Heavy contamination – +20%",
-          "After major renovation – +30%",
+          "Deep apartment cleaning – €4.50 / 8.80 BGN / m²",
           "Window and upholstery cleaning – separate services",
         ],
         discounts: [
@@ -572,11 +570,11 @@ export const translations = {
         description:
           "Извършваме професионално боядисване на стени и тавани в апартаменти, къщи и имоти под наем. Услугата включва две ръце боя, леко шпакловане при нужда, отсичане и защита на подове и мебели. Работим чисто и организирано, за да постигнем равномерен и дълготраен резултат. Боядисването позволява лесно комбиниране с пране на мека мебел и почистване на прозорци с отстъпка.",
         prices: [
-          "Един цвят (само труд) – 3,60 € / м²",
-          "Един цвят (с материали) – 5,60 € / м²",
-          "Два или повече цвята (само труд) – 4,60 € / м²",
-          "Два или повече цвята (с материали) – 6,80 € / м²",
-          "Опции: грундиране, сваляне на тапети, стара боя, допълнително шпакловане",
+          "Боядисване – един цвят (без материали) – €3.60 / 7.04 лв. / м²",
+          "Боядисване – един цвят (с материали) – €5.60 / 10.95 лв. / м²",
+          "Боядисване – два или повече цвята (без материали) – €4.60 / 8.99 лв. / м²",
+          "Боядисване – два или повече цвята (с материали) – €6.80 / 13.29 лв. / м²",
+          "Подготовка по избор: грундиране, сваляне на тапети, стара боя, шпакловане",
         ],
         discounts: [
           "Пране на мека мебел –20% при боядисване над 10 м²",
@@ -591,13 +589,13 @@ export const translations = {
         description:
           "Полагаме ламинат, мокет и PVC настилки с прецизност и правилна технология. Можем да извършим демонтаж на стара настилка, изравняване на основата, монтаж на подложка, первази и преходни лайсни. Подходящо за ремонти и обновяване на имоти.",
         prices: [
-          "Ламинат – 5,50 € / м²",
-          "Мокет (лепило включено) – 5,50 € / м²",
-          "PVC / балатум (лепило включено) – 6,00 € / м²",
-          "Демонтаж на стара настилка – 2,00 € / м²",
-          "Изравняване – 4,50 € / м²",
-          "Первази – 2,50 € / л.м",
-          "Преходни лайсни – 5,00 € / бр",
+          "Полагане на ламинат – €5.50 / 10.75 лв. / м²",
+          "Полагане на мокет (лепилото включено) – €5.50 / 10.75 лв. / м²",
+          "Полагане на PVC / балатум (лепилото включено) – €6.00 / 11.73 лв. / м²",
+          "Демонтаж на стара настилка – €2.00 / 3.91 лв. / м²",
+          "Изравняване на основа – €4.50 / 8.80 лв. / м²",
+          "Монтаж на первази – €2.50 / 4.88 лв. / л.м",
+          "Преходни лайсни – €5.00 / 9.77 лв. / бр.",
         ],
         discounts: [
           "Основно почистване –15% при площ над 10 м²",
@@ -612,14 +610,14 @@ export const translations = {
         description:
           "Сглобяваме стандартни мебели по инструкция на производителя – легла, гардероби, бюра, маси, столове и кухни. Предлагаме и монтаж към стена, демонтаж и изнасяне на стари мебели. При повече мебели или кухня е удобно да се комбинира с професионално почистване.",
         prices: [
-          "Легло – 25 €",
-          "Гардероб – 40–80 €",
-          "Бюро / маса – 20 €",
-          "Стол – 7 €",
-          "Кухня (до 6 шкафа) – 140 €",
-          "Монтаж към стена – 10 €",
-          "Демонтаж – 15 €",
-          "Изнасяне – 10 €",
+          "Легло – €25 / 48.89 лв.",
+          "Гардероб (малък до голям) – €40–80 / 78.23–156.46 лв.",
+          "Маса или бюро – €20 / 39.11 лв.",
+          "Стол – €7 / 13.69 лв.",
+          "Кухня (до 6 шкафа) – €140 / 273.81 лв.",
+          "Монтаж към стена – €10 / 19.55 лв.",
+          "Демонтаж на стара мебел – €15 / 29.33 лв.",
+          "Изнасяне (в същия имот) – €10 / 19.55 лв.",
         ],
         discounts: [
           "Основно почистване –10% при 3+ мебели или кухня",
@@ -634,12 +632,14 @@ export const translations = {
         description:
           "Прането се извършва на място с професионална техника. Премахват се замърсявания, петна, миризми и алергени. Време за съхнене – 4–8 часа. Често се комбинира с почистване на прозорци и балкони с по-висока отстъпка.",
         prices: [
-          "Диван – 30–60 €",
-          "Фотьойл – 15 €",
-          "Матрак – 20–45 €",
-          "Килим / мокет – 3,50 € / м²",
-          "Силно замърсяване / косми – +20%",
-          "Дезинфекция – +5 €",
+          "Диван 2 места – €30 / 58.67 лв.",
+          "Диван 3 места – €40 / 78.23 лв.",
+          "Ъглов диван – €50–60 / 97.79–117.34 лв.",
+          "Фотьойл – €15 / 29.33 лв.",
+          "Матрак – €20–45 / 39.11–88.01 лв.",
+          "Пране на килим / мокет – €3.50 / 6.84 лв. / м²",
+          "Силно замърсяване или косми – +20%",
+          "Дезинфекция – €5 / 9.77 лв. / обект",
         ],
         discounts: [
           "Прозорци и балкони –20%",
@@ -653,9 +653,12 @@ export const translations = {
         description:
           "Почистваме прозорци и балкони отвътре и отвън, когато достъпът е възможен от имота. Включва стъкла, рамки, релси, подове и парапети.",
         prices: [
-          "Прозорец – 6–12 €",
-          "Балконска врата – 10 €",
-          "Балкон – 15–20 €",
+          "Еднокрилен прозорец – €6 / 11.73 лв.",
+          "Двукрилен прозорец – €10 / 19.55 лв.",
+          "Френски прозорец / витрина – €12 / 23.46 лв.",
+          "Балконска врата – €10 / 19.55 лв.",
+          "Балкон – €15 / 29.33 лв.",
+          "Голям балкон / лоджия – €20 / 39.11 лв.",
           "Силно замърсяване – +20%",
         ],
       },
@@ -667,9 +670,8 @@ export const translations = {
         description:
           "Основното почистване включва премахване на строителен прах и замърсявания от всички помещения, кухни, бани, подове, врати, ключове, контакти и достъпни осветителни тела.",
         prices: [
-          "Основно почистване – 4,50 € / м²",
-          "Силно замърсяване – +20%",
-          "След тежък ремонт – +30%",
+          "Основно почистване на апартамент – €4.50 / 8.80 лв. / м²",
+          "Почистване на прозорци и пране – отделни услуги",
         ],
         discounts: [
           "Пране –10%",
@@ -1012,10 +1014,11 @@ export const translations = {
         description:
           "Ми виконуємо професійне фарбування стін і стель у квартирах, будинках та орендних об’єктах. Послуга включає два шари фарби, легке шпаклювання за потреби, чітке окантування та захист підлоги й меблів. Фарбування зручно поєднувати з хімчисткою та миттям вікон зі знижкою.",
         prices: [
-          "Один колір (робота) – 3,60 € / м²",
-          "Один колір (з матеріалами) – 5,60 € / м²",
-          "Два або більше кольорів (робота) – 4,60 € / м²",
-          "Два або більше кольорів (з матеріалами) – 6,80 € / м²",
+          "Фарбування в один колір (без матеріалів) – €3.60 / 7.04 лв. / м²",
+          "Фарбування в один колір (з матеріалами) – €5.60 / 10.95 лв. / м²",
+          "Два або більше кольорів (без матеріалів) – €4.60 / 8.99 лв. / м²",
+          "Два або більше кольорів (з матеріалами) – €6.80 / 13.29 лв. / м²",
+          "Додаткова підготовка: ґрунтування, зняття шпалер, стара фарба, шпаклювання",
         ],
         discounts: [
           "Хімчистка меблів –20% при фарбуванні від 10 м²",
@@ -1030,9 +1033,13 @@ export const translations = {
         description:
           "Ми укладаємо ламінат, ПВХ та ковролін з дотриманням правильної технології. За потреби виконуємо демонтаж старого покриття, вирівнювання основи, монтаж плінтусів і поріжків.",
         prices: [
-          "Ламінат – 5,50 € / м²",
-          "Ковролін – 5,50 € / м²",
-          "PVC / лінолеум – 6,00 € / м²",
+          "Укладання ламінату – €5.50 / 10.75 лв. / м²",
+          "Укладання ковроліну / мокету (клей включено) – €5.50 / 10.75 лв. / м²",
+          "Укладання PVC / лінолеуму (клей включено) – €6.00 / 11.73 лв. / м²",
+          "Демонтаж старого покриття – €2.00 / 3.91 лв. / м²",
+          "Вирівнювання основи – €4.50 / 8.80 лв. / м²",
+          "Плінтуси – €2.50 / 4.88 лв. / пог.м",
+          "Перехідні планки – €5.00 / 9.77 лв. / шт.",
         ],
         discounts: [
           "Генеральне прибирання –15%",
@@ -1047,9 +1054,14 @@ export const translations = {
         description:
           "Збираємо стандартні меблі відповідно до інструкцій виробника. Також можливий монтаж до стіни, демонтаж старих меблів і винесення в межах об’єкта.",
         prices: [
-          "Ліжко – 25 €",
-          "Шафа – 40–80 €",
-          "Кухня – 140 €",
+          "Ліжко – €25 / 48.89 лв.",
+          "Шафа (мала–велика) – €40–80 / 78.23–156.46 лв.",
+          "Стіл або письмовий стіл – €20 / 39.11 лв.",
+          "Стілець – €7 / 13.69 лв.",
+          "Кухня (до 6 шаф) – €140 / 273.81 лв.",
+          "Кріплення до стіни – €10 / 19.55 лв.",
+          "Демонтаж старих меблів – €15 / 29.33 лв.",
+          "Винесення (в межах об’єкта) – €10 / 19.55 лв.",
         ],
         discounts: [
           "Генеральне прибирання –10%",
@@ -1064,9 +1076,14 @@ export const translations = {
         description:
           "Професійна хімчистка м’яких меблів, матраців і килимів на місці. Видаляємо бруд, плями, запахи та алергени.",
         prices: [
-          "Дивани – 30–60 €",
-          "Матраци – 20–45 €",
-          "Килими – 3,50 € / м²",
+          "Диван 2 місця – €30 / 58.67 лв.",
+          "Диван 3 місця – €40 / 78.23 лв.",
+          "Кутовий диван – €50–60 / 97.79–117.34 лв.",
+          "Крісло – €15 / 29.33 лв.",
+          "Матрац – €20–45 / 39.11–88.01 лв.",
+          "Чистка килимів / мокету – €3.50 / 6.84 лв. / м²",
+          "Сильне забруднення або шерсть – +20%",
+          "Дезінфекція – €5 / 9.77 лв. / об’єкт",
         ],
         discounts: [
           "Вікна та балкони –20%",
@@ -1080,8 +1097,13 @@ export const translations = {
         description:
           "Миємо вікна та балкони зсередини та зовні за наявності доступу. Включає скло, рами, напрямні та підлогу балкона.",
         prices: [
-          "Вікна – 6–12 €",
-          "Балкони – 15–20 €",
+          "Миття вікон (одна стулка) – €6 / 11.73 лв.",
+          "Миття вікон (дві стулки) – €10 / 19.55 лв.",
+          "Французьке вікно / вітрина – €12 / 23.46 лв.",
+          "Балконні двері – €10 / 19.55 лв.",
+          "Балкон – €15 / 29.33 лв.",
+          "Великий балкон / лоджія – €20 / 39.11 лв.",
+          "Сильне забруднення – +20%",
         ],
       },
 
@@ -1092,7 +1114,8 @@ export const translations = {
         description:
           "Генеральне прибирання включає очищення всіх приміщень, кухні, ванни, підлог, дверей, вимикачів та розеток.",
         prices: [
-          "Генеральне прибирання – 4,50 € / м²",
+          "Генеральне прибирання квартири – €4.50 / 8.80 лв. / м²",
+          "Миття вікон та хімчистка – окремі послуги",
         ],
         discounts: [
           "Хімчистка –10%",
