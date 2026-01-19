@@ -119,104 +119,122 @@ export const translations = {
     servicesDetails: {
       painting: {
         title: "Painting & Apartment Refresh",
-        subtitle: "Professional interior painting with clean, durable results",
+        subtitle: "Clean, precise interior painting with full preparation included",
         image: "/images/service-painting.jpg",
         description:
-          "Our painting service goes beyond simply applying paint. We start with proper surface preparation, including protection of furniture and flooring, filling cracks and imperfections, and ensuring smooth, even surfaces. We work cleanly and efficiently, aiming for long-lasting results that improve both the appearance and value of your property. Suitable for apartments, houses, rentals, and properties prepared for sale or new tenants.",
+          "We provide professional interior painting of walls and ceilings for apartments, houses, and rental properties. The service includes two coats of paint, light plastering where needed, clean edge cutting, and protection of floors and furniture. Our goal is a smooth, durable finish that refreshes the space and increases property value. Painting gives full access to the rooms, making it ideal to combine with upholstery or window cleaning at reduced prices.",
         prices: [
-          "Interior wall and ceiling painting – price per m²",
-          "Single-color and multi-color painting options",
-          "Surface preparation, masking, and cleanup included",
+          "Single-color painting (labour only) – 3.60 € / m²",
+          "Single-color painting (with materials) – 5.60 € / m²",
+          "Two or more colors (labour only) – 4.60 € / m²",
+          "Two or more colors (with materials) – 6.80 € / m²",
+          "Optional preparation: priming, wallpaper removal, old paint removal, additional plastering",
         ],
         discounts: [
-          "Upholstery cleaning –20%",
-          "Window & balcony cleaning –20%",
+          "Upholstery cleaning –20% when painted area is 10 m² or more",
+          "Window & balcony cleaning –20% when upholstery cleaning is added",
         ],
       },
 
       flooring: {
         title: "Flooring Installation",
-        subtitle: "Laminate and vinyl flooring installed with precision",
+        subtitle: "Laminate, vinyl (PVC), and carpet flooring – labour only",
         image: "/images/service-flooring.jpg",
         description:
-          "We provide professional installation of laminate and vinyl flooring with attention to detail and proper technical execution. This includes correct alignment, expansion gaps, underlay placement, and skirting installation. Our flooring service ensures durability, noise reduction, and a clean finished look, making it ideal for new apartments, renovations, and rental property upgrades.",
+          "We install laminate, vinyl (PVC), and carpet (moket) flooring with precise alignment and proper technical execution. The service can include old flooring removal, base leveling, underlay installation, skirting boards, and transition strips. Suitable for renovations, new apartments, and rental upgrades. Flooring installation is often combined with deep cleaning or upholstery cleaning once the work is completed.",
         prices: [
-          "Laminate flooring installation – price per m²",
-          "Vinyl / PVC flooring installation – price per m²",
-          "Additional services: old flooring removal, leveling, skirting",
+          "Laminate flooring installation – 5.50 € / m²",
+          "Carpet / moket installation (glue included) – 5.50 € / m²",
+          "Vinyl / PVC flooring installation (glue included) – 6.00 € / m²",
+          "Old flooring removal – 2.00 € / m²",
+          "Floor leveling – 4.50 € / m²",
+          "Skirting boards – 2.50 € / linear meter",
+          "Transition strips – 5.00 € / piece",
         ],
         discounts: [
-          "Deep cleaning –15%",
-          "Upholstery cleaning –15%",
+          "Deep apartment cleaning –15% when area is 10 m² or more",
+          "Upholstery cleaning –15% when area is 10 m² or more",
         ],
       },
 
       furniture: {
         title: "Furniture Assembly & Mounting",
-        subtitle: "Accurate assembly and safe wall mounting",
+        subtitle: "Accurate assembly of standard furniture and kitchens",
         image: "/images/service-furniture.jpg",
         description:
-          "We assemble furniture of all sizes and types, following manufacturer instructions to ensure stability and long-term use. Our service includes beds, wardrobes, desks, cabinets, and full kitchen units, as well as secure wall mounting of shelves, TVs, and accessories. Ideal for new furniture deliveries, renovations, and rental properties that need fast, professional setup.",
+          "We assemble standard furniture according to manufacturer instructions, ensuring stability and correct alignment. The service covers beds, wardrobes, desks, tables, chairs, and kitchen units. Optional services include wall mounting, dismantling old furniture, and carrying items out within the same property. When assembling multiple items or a kitchen, combining with professional cleaning is often the most efficient option.",
         prices: [
-          "Furniture assembly – price per item",
-          "Kitchen assembly – price per set",
-          "Wall mounting and adjustments – quoted separately",
+          "Bed – 25 € / piece",
+          "Wardrobe (small to large) – 40–80 € / piece",
+          "Table or desk – 20 € / piece",
+          "Chair – 7 € / piece",
+          "Kitchen (up to 6 cabinets) – 140 €",
+          "Wall mounting – 10 € / piece",
+          "Old furniture removal – 15 € / piece",
+          "Carry out (same property) – 10 € / piece",
         ],
         discounts: [
-          "Deep cleaning –10%",
-          "Upholstery cleaning –10%",
+          "Deep apartment cleaning –10% when assembling 3 or more items or a kitchen",
+          "Upholstery cleaning –10% when assembling 3 or more items or a kitchen",
         ],
       },
 
       upholstery: {
         title: "Upholstery, Sofa & Mattress Cleaning",
-        subtitle: "Deep extraction cleaning for hygiene and freshness",
+        subtitle: "On-site deep extraction cleaning",
         image: "/images/service-upholstery.jpg",
         description:
-          "Our upholstery cleaning uses professional extraction machines and specialized detergents to remove deep-seated dirt, stains, odors, and allergens. This service significantly improves hygiene and indoor air quality, making it ideal for households with children, pets, or rental properties between tenants.",
+          "We perform on-site deep extraction cleaning of sofas, armchairs, mattresses, carpets, and mokets. The process removes dirt, stains, odors, and allergens. Drying time is typically 4–8 hours. Because the space is already accessible and wet during this service, window and balcony cleaning can be added with a higher discount.",
         prices: [
-          "Sofa and armchair cleaning – price per item",
-          "Mattress cleaning – single or double",
-          "Carpet and rug cleaning – on-site",
+          "2-seat sofa – 30 €",
+          "3-seat sofa – 40 €",
+          "Corner sofa – 50–60 €",
+          "Armchair – 15 €",
+          "Mattress – 20–45 €",
+          "Carpet / moket cleaning – 3.50 € / m²",
+          "Heavy dirt or pet hair – +20%",
+          "Disinfection – +5 € / object",
         ],
         discounts: [
-          "Window & balcony cleaning –20%",
+          "Window & balcony cleaning –20% when upholstery cleaning is selected",
         ],
       },
 
       windows: {
         title: "Window & Balcony Cleaning",
-        subtitle: "Streak-free glass and detailed balcony cleaning",
+        subtitle: "Interior and exterior cleaning with streak-free results",
         image: "/images/service-windows.jpg",
         description:
-          "We provide thorough interior window and balcony cleaning, including glass, frames, rails, and balcony surfaces. Our method ensures a streak-free finish and improved natural light. Suitable for apartments, houses, and rental properties, especially before move-in, inspections, or seasonal refresh.",
+          "We clean windows and balconies from the inside and outside whenever access is possible from the property. The service includes glass, frames, rails, balcony floors, and railings. Ideal before move-in, after renovation, or when combined with upholstery or deep cleaning services.",
         prices: [
-          "Window cleaning – price per window",
-          "Balcony doors and glass panels",
-          "Balcony floor and railing cleaning",
+          "Single-sash window – 6 €",
+          "Double-sash window – 10 €",
+          "French window / showcase – 12 €",
+          "Balcony door – 10 €",
+          "Balcony – 15 €",
+          "Large balcony / loggia – 20 €",
+          "Heavy dirt – +20%",
         ],
       },
 
       deepCleaning: {
         title: "Deep Apartment Cleaning",
-        subtitle: "Complete cleaning after renovation or tenants",
+        subtitle: "Thorough cleaning before move-in or after renovation",
         image: "/images/service-cleaning.jpg",
         description:
-          "Our deep apartment cleaning is designed for properties that require thorough, professional cleaning. This includes removal of construction dust, accumulated dirt, and residues from all rooms, kitchens, bathrooms, and surfaces. Ideal before moving in, after renovation, or between tenants to restore cleanliness and comfort.",
+          "Deep apartment cleaning is intended for properties that require a full reset. The service includes removal of construction dust and accumulated dirt from floors, kitchens, bathrooms, doors, switches, sockets, skirting boards, and accessible light fixtures. Pricing depends on square meters and level of contamination.",
         prices: [
-          "Deep apartment cleaning – price per m²",
-          "Kitchen and bathroom deep sanitation included",
-          "Final inspection and detailing",
+          "Deep apartment cleaning – 4.50 € / m²",
+          "Heavy contamination – +20%",
+          "After major renovation – +30%",
+          "Window and upholstery cleaning – separate services",
         ],
         discounts: [
-          "Upholstery cleaning –10%",
-          "Window & balcony cleaning –10%",
+          "Upholstery cleaning –10% when deep cleaning is selected",
+          "Window & balcony cleaning –10% when deep cleaning is selected",
         ],
       },
     },
-
-
-
 
     why: {
       title: "Why Choose Us?",
@@ -549,102 +567,116 @@ export const translations = {
     servicesDetails: {
       painting: {
         title: "Боядисване и освежаване на апартаменти",
-        subtitle: "Професионално интериорно боядисване с дълготраен резултат",
+        subtitle: "Чисто и прецизно интериорно боядисване",
         image: "/images/service-painting.jpg",
         description:
-          "Нашата услуга за боядисване включва цялостна подготовка на повърхностите, защита на подове и мебели, запълване на пукнатини и неравности и прецизно нанасяне на боята. Работим чисто и организирано, като целта ни е устойчив и естетичен резултат. Подходящо за апартаменти, къщи, жилища под наем и имоти за продажба.",
+          "Извършваме професионално боядисване на стени и тавани в апартаменти, къщи и имоти под наем. Услугата включва две ръце боя, леко шпакловане при нужда, отсичане и защита на подове и мебели. Работим чисто и организирано, за да постигнем равномерен и дълготраен резултат. Боядисването позволява лесно комбиниране с пране на мека мебел и почистване на прозорци с отстъпка.",
         prices: [
-          "Боядисване на стени и тавани – цена на м²",
-          "Едноцветно и многоцветно боядисване",
-          "Подготовка и почистване включени",
+          "Един цвят (само труд) – 3,60 € / м²",
+          "Един цвят (с материали) – 5,60 € / м²",
+          "Два или повече цвята (само труд) – 4,60 € / м²",
+          "Два или повече цвята (с материали) – 6,80 € / м²",
+          "Опции: грундиране, сваляне на тапети, стара боя, допълнително шпакловане",
         ],
         discounts: [
-          "Пране на мека мебел –20%",
-          "Почистване на прозорци и балкони –20%",
+          "Пране на мека мебел –20% при боядисване над 10 м²",
+          "Прозорци и балкони –20% при добавено пране",
         ],
       },
 
       flooring: {
         title: "Полагане на подови настилки",
-        subtitle: "Ламинат и винил с прецизен монтаж",
+        subtitle: "Ламинат, мокет и PVC – само труд",
         image: "/images/service-flooring.jpg",
         description:
-          "Извършваме професионално полагане на ламинат и винилови настилки с правилни фуги, подложка и монтаж на первази. Гарантираме стабилност, дълготрайност и завършен вид. Подходящо за нови жилища, ремонти и освежаване на имоти под наем.",
+          "Полагаме ламинат, мокет и PVC настилки с прецизност и правилна технология. Можем да извършим демонтаж на стара настилка, изравняване на основата, монтаж на подложка, первази и преходни лайсни. Подходящо за ремонти и обновяване на имоти.",
         prices: [
-          "Полагане на ламинат – цена на м²",
-          "Полагане на PVC / винил – цена на м²",
-          "Демонтаж на стар под и изравняване – допълнително",
+          "Ламинат – 5,50 € / м²",
+          "Мокет (лепило включено) – 5,50 € / м²",
+          "PVC / балатум (лепило включено) – 6,00 € / м²",
+          "Демонтаж на стара настилка – 2,00 € / м²",
+          "Изравняване – 4,50 € / м²",
+          "Первази – 2,50 € / л.м",
+          "Преходни лайсни – 5,00 € / бр",
         ],
         discounts: [
-          "Основно почистване –15%",
-          "Пране на мека мебел –15%",
+          "Основно почистване –15% при площ над 10 м²",
+          "Пране на мека мебел –15% при площ над 10 м²",
         ],
       },
 
       furniture: {
-        title: "Сглобяване и монтаж на мебели",
-        subtitle: "Мебели, кухни и стенен монтаж",
+        title: "Сглобяване на мебели",
+        subtitle: "Стандартни мебели и кухни",
         image: "/images/service-furniture.jpg",
         description:
-          "Предлагаме професионално сглобяване на мебели според инструкциите на производителя. Извършваме монтаж на кухни, гардероби, легла, бюра, както и сигурно закрепване към стени. Идеално решение за нови доставки, ремонти и обзавеждане на имоти под наем.",
+          "Сглобяваме стандартни мебели по инструкция на производителя – легла, гардероби, бюра, маси, столове и кухни. Предлагаме и монтаж към стена, демонтаж и изнасяне на стари мебели. При повече мебели или кухня е удобно да се комбинира с професионално почистване.",
         prices: [
-          "Сглобяване на мебели – цена на брой",
-          "Сглобяване на кухня – цена за комплект",
-          "Стенен монтаж – по договаряне",
+          "Легло – 25 €",
+          "Гардероб – 40–80 €",
+          "Бюро / маса – 20 €",
+          "Стол – 7 €",
+          "Кухня (до 6 шкафа) – 140 €",
+          "Монтаж към стена – 10 €",
+          "Демонтаж – 15 €",
+          "Изнасяне – 10 €",
         ],
         discounts: [
-          "Основно почистване –10%",
-          "Пране на мека мебел –10%",
+          "Основно почистване –10% при 3+ мебели или кухня",
+          "Пране –10% при 3+ мебели или кухня",
         ],
       },
 
       upholstery: {
         title: "Пране на мека мебел и матраци",
-        subtitle: "Дълбоко почистване за хигиена и свежест",
+        subtitle: "Дълбоко екстракторно почистване",
         image: "/images/service-upholstery.jpg",
         description:
-          "Използваме професионални екстракторни машини за дълбоко почистване на дивани, фотьойли, матраци и килими. Премахваме замърсявания, миризми и алергени, подобрявайки хигиената и комфорта в дома.",
+          "Прането се извършва на място с професионална техника. Премахват се замърсявания, петна, миризми и алергени. Време за съхнене – 4–8 часа. Често се комбинира с почистване на прозорци и балкони с по-висока отстъпка.",
         prices: [
-          "Пране на дивани и фотьойли – цена на брой",
-          "Пране на матраци – единични и двойни",
-          "Пране на килими на място",
+          "Диван – 30–60 €",
+          "Фотьойл – 15 €",
+          "Матрак – 20–45 €",
+          "Килим / мокет – 3,50 € / м²",
+          "Силно замърсяване / косми – +20%",
+          "Дезинфекция – +5 €",
         ],
         discounts: [
-          "Почистване на прозорци и балкони –20%",
+          "Прозорци и балкони –20%",
         ],
       },
 
       windows: {
         title: "Почистване на прозорци и балкони",
-        subtitle: "Без следи и с внимание към детайла",
+        subtitle: "Отвътре и отвън, без ивици",
         image: "/images/service-windows.jpg",
         description:
-          "Професионално почистване на вътрешни прозорци и балкони, включително стъкла, рамки, релси и подове. Осигуряваме чистота и повече светлина във вашия дом или имот под наем.",
+          "Почистваме прозорци и балкони отвътре и отвън, когато достъпът е възможен от имота. Включва стъкла, рамки, релси, подове и парапети.",
         prices: [
-          "Почистване на прозорци – цена на брой",
-          "Балконски врати и витрини",
-          "Почистване на балкони",
+          "Прозорец – 6–12 €",
+          "Балконска врата – 10 €",
+          "Балкон – 15–20 €",
+          "Силно замърсяване – +20%",
         ],
       },
 
       deepCleaning: {
         title: "Основно почистване на апартаменти",
-        subtitle: "След ремонт или смяна на наематели",
+        subtitle: "Преди нанасяне или след ремонт",
         image: "/images/service-cleaning.jpg",
         description:
-          "Основното почистване е подходящо за силно замърсени жилища, след ремонт или освобождаване от наематели. Премахваме строителен прах, замърсявания и остатъци от всички помещения, кухни и бани.",
+          "Основното почистване включва премахване на строителен прах и замърсявания от всички помещения, кухни, бани, подове, врати, ключове, контакти и достъпни осветителни тела.",
         prices: [
-          "Основно почистване – цена на м²",
-          "Дълбоко почистване на кухня и баня",
-          "Финално детайлно почистване",
+          "Основно почистване – 4,50 € / м²",
+          "Силно замърсяване – +20%",
+          "След тежък ремонт – +30%",
         ],
         discounts: [
-          "Пране на мека мебел –10%",
-          "Почистване на прозорци и балкони –10%",
+          "Пране –10%",
+          "Прозорци и балкони –10%",
         ],
       },
     },
-
 
 
     why: {
@@ -974,104 +1006,100 @@ export const translations = {
     },
     servicesDetails: {
       painting: {
-        title: "Фарбування та оновлення квартир",
-        subtitle: "Професійне внутрішнє фарбування приміщень",
+        title: "Фарбування та оновлення приміщень",
+        subtitle: "Професійне внутрішнє фарбування",
         image: "/images/service-painting.jpg",
         description:
-          "Ми надаємо повний комплекс послуг з фарбування, включаючи підготовку поверхонь, захист меблів і підлог, усунення тріщин та акуратне нанесення фарби. Працюємо чисто та організовано, забезпечуючи довговічний та естетичний результат. Підходить для квартир, будинків та орендної нерухомості.",
+          "Ми виконуємо професійне фарбування стін і стель у квартирах, будинках та орендних об’єктах. Послуга включає два шари фарби, легке шпаклювання за потреби, чітке окантування та захист підлоги й меблів. Фарбування зручно поєднувати з хімчисткою та миттям вікон зі знижкою.",
         prices: [
-          "Фарбування стін і стель – ціна за м²",
-          "Одноколірне та багатоколірне фарбування",
-          "Підготовка поверхонь включена",
+          "Один колір (робота) – 3,60 € / м²",
+          "Один колір (з матеріалами) – 5,60 € / м²",
+          "Два або більше кольорів (робота) – 4,60 € / м²",
+          "Два або більше кольорів (з матеріалами) – 6,80 € / м²",
         ],
         discounts: [
-          "Чищення м’яких меблів –20%",
-          "Миття вікон і балконів –20%",
+          "Хімчистка меблів –20% при фарбуванні від 10 м²",
+          "Вікна та балкони –20% при додаванні хімчистки",
         ],
       },
 
       flooring: {
-        title: "Монтаж підлогових покриттів",
-        subtitle: "Ламінат і вініл з точним укладанням",
+        title: "Укладання підлогових покриттів",
+        subtitle: "Ламінат, ПВХ та ковролін – лише робота",
         image: "/images/service-flooring.jpg",
         description:
-          "Ми професійно укладаємо ламінат та вінілові покриття з правильними зазорами, підкладкою та монтажем плінтусів. Послуга підходить для нових квартир, ремонтів і оновлення орендних об’єктів.",
+          "Ми укладаємо ламінат, ПВХ та ковролін з дотриманням правильної технології. За потреби виконуємо демонтаж старого покриття, вирівнювання основи, монтаж плінтусів і поріжків.",
         prices: [
-          "Укладання ламінату – ціна за м²",
-          "Укладання вінілових покриттів – ціна за м²",
-          "Демонтаж старої підлоги – додатково",
+          "Ламінат – 5,50 € / м²",
+          "Ковролін – 5,50 € / м²",
+          "PVC / лінолеум – 6,00 € / м²",
         ],
         discounts: [
           "Генеральне прибирання –15%",
-          "Чищення м’яких меблів –15%",
+          "Хімчистка –15%",
         ],
       },
 
       furniture: {
-        title: "Збірка та монтаж меблів",
-        subtitle: "Меблі, кухні та кріплення до стін",
+        title: "Збірка меблів",
+        subtitle: "Стандартні меблі та кухні",
         image: "/images/service-furniture.jpg",
         description:
-          "Ми виконуємо професійну збірку меблів відповідно до інструкцій виробника, включаючи кухонні гарнітури та настінне кріплення. Ідеально підходить для нових поставок, ремонтів та орендної нерухомості.",
+          "Збираємо стандартні меблі відповідно до інструкцій виробника. Також можливий монтаж до стіни, демонтаж старих меблів і винесення в межах об’єкта.",
         prices: [
-          "Збірка меблів – ціна за одиницю",
-          "Збірка кухні – ціна за комплект",
-          "Настінний монтаж – за домовленістю",
+          "Ліжко – 25 €",
+          "Шафа – 40–80 €",
+          "Кухня – 140 €",
         ],
         discounts: [
           "Генеральне прибирання –10%",
-          "Чищення м’яких меблів –10%",
+          "Хімчистка –10%",
         ],
       },
 
       upholstery: {
-        title: "Чищення м’яких меблів і матраців",
-        subtitle: "Глибоке очищення для гігієни",
+        title: "Хімчистка меблів і матраців",
+        subtitle: "Глибоке очищення на місці",
         image: "/images/service-upholstery.jpg",
         description:
-          "Професійне екстракторне чищення диванів, крісел, матраців і килимів. Ми видаляємо глибокі забруднення, запахи та алергени, покращуючи чистоту та комфорт у приміщенні.",
+          "Професійна хімчистка м’яких меблів, матраців і килимів на місці. Видаляємо бруд, плями, запахи та алергени.",
         prices: [
-          "Чищення диванів і крісел – ціна за одиницю",
-          "Чищення матраців – одно- та двостороннє",
-          "Чищення килимів на місці",
+          "Дивани – 30–60 €",
+          "Матраци – 20–45 €",
+          "Килими – 3,50 € / м²",
         ],
         discounts: [
-          "Миття вікон і балконів –20%",
+          "Вікна та балкони –20%",
         ],
       },
 
       windows: {
-        title: "Миття вікон і балконів",
-        subtitle: "Чисті поверхні без розводів",
+        title: "Миття вікон та балконів",
+        subtitle: "Зсередини та зовні без розводів",
         image: "/images/service-windows.jpg",
         description:
-          "Ретельне миття вікон і балконів, включаючи скло, рами, напрямні та підлоги. Забезпечує більше світла та охайний вигляд житла.",
+          "Миємо вікна та балкони зсередини та зовні за наявності доступу. Включає скло, рами, напрямні та підлогу балкона.",
         prices: [
-          "Миття вікон – ціна за одиницю",
-          "Балконні двері та вітрини",
-          "Прибирання балконів",
+          "Вікна – 6–12 €",
+          "Балкони – 15–20 €",
         ],
       },
 
       deepCleaning: {
         title: "Генеральне прибирання квартир",
-        subtitle: "Після ремонту або орендарів",
+        subtitle: "Після ремонту або перед заселенням",
         image: "/images/service-cleaning.jpg",
         description:
-          "Генеральне прибирання призначене для квартир після ремонту або звільнення орендарями. Ми видаляємо будівельний пил, бруд і залишки з усіх приміщень, кухонь і ванних кімнат.",
+          "Генеральне прибирання включає очищення всіх приміщень, кухні, ванни, підлог, дверей, вимикачів та розеток.",
         prices: [
-          "Генеральне прибирання – ціна за м²",
-          "Глибоке прибирання кухні та ванної",
-          "Фінальне деталізоване прибирання",
+          "Генеральне прибирання – 4,50 € / м²",
         ],
         discounts: [
-          "Чищення м’яких меблів –10%",
-          "Миття вікон і балконів –10%",
+          "Хімчистка –10%",
+          "Вікна та балкони –10%",
         ],
       },
     },
-
-
 
     why: {
       title: "Чому обирають нас?",
