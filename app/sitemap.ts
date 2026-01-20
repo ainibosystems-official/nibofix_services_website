@@ -13,13 +13,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/ua`, lastModified },
 
     // =========================
-    // SERVICES INDEX
-    // =========================
-    { url: `${baseUrl}/bg/services`, lastModified },
-    { url: `${baseUrl}/en/services`, lastModified },
-    { url: `${baseUrl}/ua/services`, lastModified },
-
-    // =========================
     // SERVICE PAGES
     // =========================
     { url: `${baseUrl}/bg/services/painting`, lastModified },
