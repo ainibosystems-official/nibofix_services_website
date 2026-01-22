@@ -81,7 +81,8 @@ export default function ServiceRow({
             type="number"
             inputMode="numeric"
             min={0}
-            value={quantity ?? 0}
+            value={quantity === 0 ? "" : quantity}
+            onWheel={(e) => e.currentTarget.blur()}
             onChange={(e) => onChange(e.target.value)}
             className="
               w-12
