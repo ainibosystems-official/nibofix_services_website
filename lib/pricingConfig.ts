@@ -224,29 +224,29 @@ export const services: Service[] = [
       REPAIR — PAINTING (WALLS & CEILINGS)
    ================================================== */
 
-   { id: "painting_one_no_material", category: "repair", pricePerUnit: 3.6, unitKey: "m2", group: "painting" },
-   { id: "painting_one_with_material", category: "repair", pricePerUnit: 5.6, unitKey: "m2", group: "painting" },
+   { id: "painting_one_no_material", category: "repair", pricePerUnit: 4.4, unitKey: "m2", group: "painting" },
+   { id: "painting_one_with_material", category: "repair", pricePerUnit: 6.8, unitKey: "m2", group: "painting" },
 
-   { id: "painting_multi_no_material", category: "repair", pricePerUnit: 4.6, unitKey: "m2", group: "painting" },
-   { id: "painting_multi_with_material", category: "repair", pricePerUnit: 6.8, unitKey: "m2", group: "painting" },
+   { id: "painting_multi_no_material", category: "repair", pricePerUnit: 5.6, unitKey: "m2", group: "painting" },
+   { id: "painting_multi_with_material", category: "repair", pricePerUnit: 8.2, unitKey: "m2", group: "painting" },
 
    /* ==================================================
       REPAIR — PREPARATION
    ================================================== */
 
-   { id: "prep_priming_no_material", category: "repair", pricePerUnit: 1.0, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_PAINTING_TO_PREP, group: "preparation" },
-   { id: "prep_priming_with_material", category: "repair", pricePerUnit: 1.4, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_PAINTING_TO_PREP, group: "preparation" },
-   { id: "prep_wallpaper_removal", category: "repair", pricePerUnit: 2.0, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_PAINTING_TO_PREP, group: "preparation" },
-   { id: "prep_old_paint_removal", category: "repair", pricePerUnit: 1.8, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_PAINTING_TO_PREP, group: "preparation" },
-   { id: "prep_extra_plastering", category: "repair", pricePerUnit: 3.25, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_PAINTING_TO_PREP, group: "preparation" },
+   { id: "prep_priming_no_material", category: "repair", pricePerUnit: 1.2, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_PAINTING_TO_PREP, group: "preparation" },
+   { id: "prep_priming_with_material", category: "repair", pricePerUnit: 1.7, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_PAINTING_TO_PREP, group: "preparation" },
+   { id: "prep_wallpaper_removal", category: "repair", pricePerUnit: 2.4, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_PAINTING_TO_PREP, group: "preparation" },
+   { id: "prep_old_paint_removal", category: "repair", pricePerUnit: 2.2, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_PAINTING_TO_PREP, group: "preparation" },
+   { id: "prep_extra_plastering", category: "repair", pricePerUnit: 3.9, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_PAINTING_TO_PREP, group: "preparation" },
 
 
    /* ==================================================
       REPAIR — FLOORING (LABOR ONLY)
    ================================================== */
 
-   { id: "floor_laminate", category: "repair", pricePerUnit: 5.5, unitKey: "m2", group: "flooring" },
-   { id: "floor_carpet", category: "repair", pricePerUnit: 5.5, unitKey: "m2", group: "flooring" },
+   { id: "floor_laminate", category: "repair", pricePerUnit: 6.6, unitKey: "m2", group: "flooring" },
+   { id: "floor_carpet", category: "repair", pricePerUnit: 6.6, unitKey: "m2", group: "flooring" },
    { id: "floor_pvc", category: "repair", pricePerUnit: 6.0, unitKey: "m2", group: "flooring" },
 
    { id: "floor_old_removal", category: "repair", pricePerUnit: 2.0, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_FLOORING, group: "flooring" },
