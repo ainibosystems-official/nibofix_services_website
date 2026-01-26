@@ -124,10 +124,10 @@ export const translations = {
         description:
           "We provide professional interior painting of walls and ceilings for apartments, houses, and rental properties. The service includes two coats of paint, light plastering where needed, clean edge cutting, and protection of floors and furniture. Our goal is a smooth, durable finish that refreshes the space and increases property value. Painting gives full access to the rooms, making it ideal to combine with upholstery or window cleaning at reduced prices.",
         prices: [
-          "Single-color painting (labour only) – €3.60 / 7.04 BGN / m²",
-          "Single-color painting (with materials) – €5.60 / 10.95 BGN / m²",
-          "Two or more colors (labour only) – €4.60 / 8.99 BGN / m²",
-          "Two or more colors (with materials) – €6.80 / 13.29 BGN / m²",
+          "Single-color painting (labour only) – €4.40 / 8.60 лв. / м²",
+          "Single-color painting (with materials) – €6.80 / 13.29 лв. / м²",
+          "Two or more colors (labour only) – €5.60 / 10.95 лв. / m²",
+          "Two or more colors (with materials) – €8.20 / 16.03 лв. / m²",
           "Optional preparation: priming, wallpaper removal, old paint removal, additional plastering",
         ],
         discounts: [
@@ -143,8 +143,8 @@ export const translations = {
         description:
           "We install laminate, vinyl (PVC), and carpet (moket) flooring with precise alignment and proper technical execution. The service can include old flooring removal, base leveling, underlay installation, skirting boards, and transition strips. Suitable for renovations, new apartments, and rental upgrades. Flooring installation is often combined with deep cleaning or upholstery cleaning once the work is completed.",
         prices: [
-          "Laminate flooring installation – €5.50 / 10.75 BGN / m²",
-          "Carpet / moket installation (glue included) – €5.50 / 10.75 BGN / m²",
+          "Laminate flooring installation – €6.60 / 12.90 лв. / m²",
+          "Carpet / moket installation (glue included) – €6.00 / 11.73 лв. / m²",
           "Vinyl / PVC flooring installation (glue included) – €6.00 / 11.73 BGN / m²",
           "Old flooring removal – €2.00 / 3.91 BGN / m²",
           "Floor leveling – €4.50 / 8.80 BGN / m²",
@@ -570,10 +570,10 @@ export const translations = {
         description:
           "Извършваме професионално боядисване на стени и тавани в апартаменти, къщи и имоти под наем. Услугата включва две ръце боя, леко шпакловане при нужда, отсичане и защита на подове и мебели. Работим чисто и организирано, за да постигнем равномерен и дълготраен резултат. Боядисването позволява лесно комбиниране с пране на мека мебел и почистване на прозорци с отстъпка.",
         prices: [
-          "Боядисване – един цвят (без материали) – €3.60 / 7.04 лв. / м²",
-          "Боядисване – един цвят (с материали) – €5.60 / 10.95 лв. / м²",
-          "Боядисване – два или повече цвята (без материали) – €4.60 / 8.99 лв. / м²",
-          "Боядисване – два или повече цвята (с материали) – €6.80 / 13.29 лв. / м²",
+          "Боядисване – един цвят (без материали) – €4.40 / 8.60 лв. / м²",
+          "Боядисване – един цвят (с материали) – €6.80 / 13.29 лв. / м²",
+          "Боядисване – два или повече цвята (без материали) – €5.60 / 10.95 лв. / м²",
+          "Боядисване – два или повече цвята (с материали) – €8.20 / 16.03 лв. / м²",
           "Подготовка по избор: грундиране, сваляне на тапети, стара боя, шпакловане",
         ],
         discounts: [
@@ -589,8 +589,8 @@ export const translations = {
         description:
           "Полагаме ламинат, мокет и PVC настилки с прецизност и правилна технология. Можем да извършим демонтаж на стара настилка, изравняване на основата, монтаж на подложка, первази и преходни лайсни. Подходящо за ремонти и обновяване на имоти.",
         prices: [
-          "Полагане на ламинат – €5.50 / 10.75 лв. / м²",
-          "Полагане на мокет (лепилото включено) – €5.50 / 10.75 лв. / м²",
+          "Полагане на ламинат – €6.60 / 12.90 лв. / м²",
+          "Полагане на мокет (лепилото включено) – €6.00 / 11.73 лв. / м²",
           "Полагане на PVC / балатум (лепилото включено) – €6.00 / 11.73 лв. / м²",
           "Демонтаж на стара настилка – €2.00 / 3.91 лв. / м²",
           "Изравняване на основа – €4.50 / 8.80 лв. / м²",
@@ -1014,10 +1014,10 @@ export const translations = {
         description:
           "Ми виконуємо професійне фарбування стін і стель у квартирах, будинках та орендних об’єктах. Послуга включає два шари фарби, легке шпаклювання за потреби, чітке окантування та захист підлоги й меблів. Фарбування зручно поєднувати з хімчисткою та миттям вікон зі знижкою.",
         prices: [
-          "Фарбування в один колір (без матеріалів) – €3.60 / 7.04 лв. / м²",
-          "Фарбування в один колір (з матеріалами) – €5.60 / 10.95 лв. / м²",
-          "Два або більше кольорів (без матеріалів) – €4.60 / 8.99 лв. / м²",
-          "Два або більше кольорів (з матеріалами) – €6.80 / 13.29 лв. / м²",
+          "Фарбування в один колір (без матеріалів) – €4.40 / 8.60 лв. / м²",
+          "Фарбування в один колір (з матеріалами) – €6.80 / 13.29 лв. / м²",
+          "Два або більше кольорів (без матеріалів) – €5.60 / 10.95 лв. / м²",
+          "Два або більше кольорів (з матеріалами) – €8.20 / 16.03 лв. / м²",
           "Додаткова підготовка: ґрунтування, зняття шпалер, стара фарба, шпаклювання",
         ],
         discounts: [
@@ -1033,8 +1033,8 @@ export const translations = {
         description:
           "Ми укладаємо ламінат, ПВХ та ковролін з дотриманням правильної технології. За потреби виконуємо демонтаж старого покриття, вирівнювання основи, монтаж плінтусів і поріжків.",
         prices: [
-          "Укладання ламінату – €5.50 / 10.75 лв. / м²",
-          "Укладання ковроліну / мокету (клей включено) – €5.50 / 10.75 лв. / м²",
+          "Укладання ламінату – €6.60 / 12.90 лв. / м²",
+          "Укладання ковроліну / мокету (клей включено) – €6.00 / 11.73 лв. / м²",
           "Укладання PVC / лінолеуму (клей включено) – €6.00 / 11.73 лв. / м²",
           "Демонтаж старого покриття – €2.00 / 3.91 лв. / м²",
           "Вирівнювання основи – €4.50 / 8.80 лв. / м²",

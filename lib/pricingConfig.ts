@@ -246,7 +246,7 @@ export const services: Service[] = [
    ================================================== */
 
    { id: "floor_laminate", category: "repair", pricePerUnit: 6.6, unitKey: "m2", group: "flooring" },
-   { id: "floor_carpet", category: "repair", pricePerUnit: 6.6, unitKey: "m2", group: "flooring" },
+   { id: "floor_carpet", category: "repair", pricePerUnit: 6.0, unitKey: "m2", group: "flooring" },
    { id: "floor_pvc", category: "repair", pricePerUnit: 6.0, unitKey: "m2", group: "flooring" },
 
    { id: "floor_old_removal", category: "repair", pricePerUnit: 2.0, unitKey: "m2", discountRule: DISCOUNT_FROM_ANY_FLOORING, group: "flooring" },
