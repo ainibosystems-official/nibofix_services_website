@@ -150,7 +150,7 @@ export default function ServicesGrid({ lang }: { lang: Lang }) {
                         transition
                       "
                     >
-                      Learn more →
+                      {t.learnMore}
                     </p>
                   </div>
                 </Link>

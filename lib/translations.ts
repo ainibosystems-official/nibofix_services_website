@@ -495,6 +495,7 @@ export const translations = {
         }
       ]
     },
+    learnMore: "Learn more →",
   },
 
   bg: {
@@ -939,7 +940,10 @@ export const translations = {
         }
       ]
     },
+
+    learnMore: "Научи повече →",
   },
+
 
   ua: {
     nav: {
@@ -1380,5 +1384,6 @@ export const translations = {
         }
       ]
     },
+    learnMore: "Дізнатися більше →",
   },
 } as const;
