@@ -63,3 +63,15 @@ html {
 .faq-content p {
   white-space: normal;
 }
+
+.animate-fadeUp.delay-150 {
+  animation-delay: 0.15s;
+}
+
+.animate-fadeUp.delay-150 {
+  animation-delay: 0.15s;
+}
+
+.animate-fadeUp.delay-300 {
+  animation-delay: 0.3s;
+}
